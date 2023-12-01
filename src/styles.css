@@ -1,4 +1,13 @@
-/**
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+  width: 100%;
+  scroll-behavior: smooth; /* Add this line */
+}/**
 * CSS file to hold styles that apply across the application
 */
 
@@ -117,9 +126,19 @@ a:hover {
   justify-content: flex-start;
   padding: 24px 16px;
   text-align: center;
+  animation: slideInLeft 1s ease-out; /* Add this line */
 }
 
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
