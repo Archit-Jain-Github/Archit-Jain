@@ -40,7 +40,7 @@ const projectList = [
     title: "Git & GitHub CheatSheet",
     description:
       "Checkout Git & GitHub CheatSheet to fasten your git workflow...",
-    url: "../git.html",
+    url: "",
   },
 ];
 
