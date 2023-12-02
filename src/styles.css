@@ -116,7 +116,7 @@ a:hover {
   justify-content: flex-start;
   padding: 24px 16px;
   text-align: center;
-  animation: slideInLeft 1s ease-out; /* Add this line */
+  animation: slideInLeft 1s ease-out;
 }
 
 img.socialIcon {
@@ -131,4 +131,24 @@ img.socialIcon {
   100% {
     transform: translateX(0);
   }
+}
+
+/* Media queries for responsive design */
+
+@media only screen and (max-width: 768px) {
+  /* Adjust styles for screens with a maximum width of 768px */
+  h1 {
+    font-size: 5rem;
+  }
+
+  /* Add more responsive styles as needed */
+}
+
+@media only screen and (max-width: 480px) {
+  /* Adjust styles for screens with a maximum width of 480px */
+  h1 {
+    font-size: 4rem;
+  }
+
+  /* Add more responsive styles as needed */
 }
