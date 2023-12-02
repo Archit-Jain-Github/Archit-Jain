@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Archit Jain",
-  title: "Microsoft Learn Student Ambassador | Learner",
+  title: "Microsoft Learn Student Ambassador",
   email: "archit.jain@studentambassadors.com",
   gitHub: "Archit-Jain-Github",
   instagram: "",
