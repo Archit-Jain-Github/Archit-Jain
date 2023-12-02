@@ -50,10 +50,10 @@ const Portfolio = () => {
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
-          <<img style={{ animation: "1s ease-out 0s 1 slideIn" }} src={yourImageSource} alt={yourAltText} />
-            src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
-            alt={imageAltText}
+          <img 
+            style={{ animation: "1s ease-out 0s 1 slideIn", height: "90%", width: "100%", objectFit: "cover" }} 
+            src={image} 
+            alt={imageAltText} 
           />
         </div>
         <div className="container">
